@@ -1,36 +1,38 @@
 body {
-	padding-top: 60px;
-}
-nav {
-  .navbar-brand {font-size: 30px;}
-	.navbar-toggle {margin: 13px 15px 13px 0;}
-	a {
-		font-size: 18px;
-		padding-bottom: 20px !important;
-		padding-top: 20px !important;
-    transition: all 0.3s ease;
-	}
+    margin: 60px auto;
+    width: 70%;
 }
 
-nav.navbar.shrink {
-	min-height: 35px;
-  .navbar-brand {font-size: 25px;}
-  a {
-    font-size: 15px;
-    padding-bottom: 10px !important;
-    padding-top: 10px !important;
-  }
-  .navbar-toggle {
-    margin: 8px 15px 8px 0;
-    padding: 4px 5px;
-  }
+.navbar {
+  background-color: #333;
+  border-bottom: 0px;
 }
+
+.navbar .navbar-brand, .navbar .navbar-brand:hover {
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 500;
+}
+
+.navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 50px;
-    line-height: 60px;
+    line-height: 50px;
     font-size: 15px;
     background-color: #000;
 }
