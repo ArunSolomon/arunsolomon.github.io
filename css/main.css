@@ -2,23 +2,34 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+/* ---------------------------------------------------------
+Navbar
+---------------------------------------------------------*/
+
+.navbar {
+  background-color: #333;
+  border-bottom: 0px;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+.navbar .navbar-brand, .navbar .navbar-brand:hover {
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .9em;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+.navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 500;
 }
-a:hover {
-    text-decoration: underline;
+
+.navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
