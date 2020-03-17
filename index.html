@@ -1,8 +1,71 @@
----
-layout: default
-title: Arun Solomon
----
-<div class="blurb">
-	<h1>Hi there, I'm Arun Solomon!</h1>
-	<p><a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arun Solomon</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <style>
+        body {
+            background-color: white;
+        }
+        .main-wrapper {
+            height: 100%;
+            width: 100%;
+        }
+        .about {
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+        a.button {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 20px;
+        }
+        .button:hover {
+            color: #fff;
+            background-color: #000
+        }
+        .contact {
+            margin-top: 20px;
+            border-top: 2px solid black;
+        }
+        .contact a {
+            margin-top: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="main-wapper">
+            <div class="about">
+                <h1>Hey, I'm Arun Solomon</h1>
+                <p>It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout. The point of using 
+                    Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                    as opposed to using 'Content here, content here', making it look like 
+                    readable English. Many desktop publishing packages and web page editors 
+                    now use Lorem Ipsum as their default model text, and a search for 
+                    'lorem ipsum' will uncover many web sites still in their infancy. </p>
+                <a href="#" class="button">Know More About Me</a> 
+                <div class="contact">
+                    <a href="#" class="button">Notes</a>
+                    <a href="#" class="button">Linkedin</a>
+                    <a href="#" class="button">Github</a>
+                    <a href="#" class="button">Email</a>
+                    <a href="#" class="button">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
